@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button {
+    border: none;
+    background-color: skyblue;
+    font-size: 10em;
+    color: darkred;
+    transition: .2s;
+    outline: none;
+
+}
+.like-wrap {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: skyblue;
+}
+.button:hover {
+    transform: scale(1.05);
+    transition: .2s;
+    outline: none;
+}
+.button:active {
+    transform: scale(1.4);
+    transition: .01s;
+    color: white;
+    outline: none;
+}
+.title {
+    position: absolute;
+    top: 280px;
+}
+.title__text {
+    font-size: 4em;
+    color: white;
+    text-shadow: 1px 1px 30px black;
+}
